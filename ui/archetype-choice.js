@@ -54,6 +54,8 @@ const FALLBACK_FR = {
   LOC_SQ_WAREHOUSE_PRODUCTION: "Entrepôt de production : la fondation devient Ageless et conserve ses rendements à l'âge suivant. Le jeu ne peut pas marquer un seul bâtiment Ageless, donc ce bonus n'est pas encore versé."
 };
 
+console.log("SQ ui file parsed");
+
 let panel = null;
 let titleNode = null;
 let bodyNode = null;
@@ -355,15 +357,7 @@ function injectTooltip(plot) {
 function boot() {
   if (!document.body) return;
   useFrench = detectFrench();
-  ensurePanel();
-  globalThis.SQPresent = showChoice;
   console.log("SQ ui loaded");
-  engine.on("sq-open-choice", (payload) => showChoice(payload));
-  engine.on("ConstructibleBuildCompleted", () => {
-    pullPending();
-    if (typeof requestAnimationFrame === "function") requestAnimationFrame(pullPending);
-  });
-  engine.on("LocalPlayerTurnBegin", pullPending);
   window.addEventListener("cursor-updated", (event) => {
     const plot = event.detail && event.detail.plot;
     window.setTimeout(() => injectTooltip(plot), 60);

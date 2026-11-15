@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <Row Type="SQ_BARRACKS_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_1_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_1_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_2_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_2_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_3_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_3_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_4_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_4_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_5_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_5_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_6_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_6_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_7_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_7_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_8_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_BARRACKS_8_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_1_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_1_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_2_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_2_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_3_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_3_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_4_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_4_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_5_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_5_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_6_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_6_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_7_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_7_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_8_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GARDEN_8_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_1_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_1_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_2_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_2_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_3_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_3_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_4_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_4_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_5_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_5_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_6_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_6_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_7_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_7_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_8_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MONUMENT_8_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_1_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_1_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_2_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_2_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_3_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_3_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_4_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_4_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_5_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_5_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_6_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_6_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_7_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_7_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_8_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_VILLA_8_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_1_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_1_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_2_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_2_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_3_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_3_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_4_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_4_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_5_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_5_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_6_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_6_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_7_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_7_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_8_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_ARMORER_8_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_1_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_1_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_2_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_2_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_3_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_3_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_4_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_4_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_5_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_5_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_6_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_6_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_7_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_7_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_8_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_DUNGEON_8_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_1_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_1_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_2_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_2_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_3_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_3_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_4_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_4_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_5_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_5_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_6_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_6_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_7_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_7_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_8_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_GUILDHALL_8_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_1_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_1_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_2_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_2_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_3_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_3_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_4_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_4_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_5_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_5_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_6_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_6_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_7_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_7_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_8_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_SHIPYARD_8_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_1_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_1_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_2_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_2_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_3_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_3_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_4_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_4_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_5_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_5_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_6_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_6_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_7_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_7_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_8_FOOD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_TAVERN_8_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_1_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_1_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_2_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_2_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_3_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_3_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_4_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_4_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_5_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_5_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_6_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_6_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_7_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_7_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_8_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_AIRFIELD_8_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_1_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_1_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_2_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_2_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_3_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_3_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_4_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_4_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_5_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_5_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_6_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_6_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_7_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_7_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_8_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_MILITARY_ACADEMY_8_MILITARY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_1_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_1_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_2_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_2_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_3_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_3_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_4_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_4_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_5_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_5_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_6_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_6_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_7_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_7_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_8_CULTURE" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_OPERA_HOUSE_8_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_1_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_1_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_2_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_2_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_3_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_3_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_4_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_4_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_5_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_5_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_6_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_6_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_7_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_7_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_8_DIPLOMACY" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RADIO_STATION_8_HAPPINESS" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_1" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_1_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_1_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_2" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_2_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_2_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_3" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_3_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_3_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_4" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_4_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_4_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_5" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_5_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_5_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_6" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_6_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_6_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_7" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_7_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_7_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_8" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_8_GOLD" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="SQ_RAIL_STATION_8_PRODUCTION" Kind="KIND_NARRATIVE_STORY"/>
+    </Types>
+    <NarrativeStories>
+        <Row NarrativeStoryType="SQ_BARRACKS_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_BARRACKS_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_1_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_1_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_BARRACKS_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_2_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_2_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_BARRACKS_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_3_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_3_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_BARRACKS_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_4_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_4_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_BARRACKS_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_5_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_5_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_BARRACKS_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_6_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_6_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_BARRACKS_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_7_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_7_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_BARRACKS_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_8_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_BARRACKS_8_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GARDEN_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GARDEN_1_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_1_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GARDEN_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GARDEN_2_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_2_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GARDEN_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GARDEN_3_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_3_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GARDEN_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GARDEN_4_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_4_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GARDEN_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GARDEN_5_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_5_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GARDEN_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GARDEN_6_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_6_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GARDEN_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GARDEN_7_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_7_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GARDEN_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GARDEN_8_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GARDEN_8_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MONUMENT_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_1_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_1_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MONUMENT_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_2_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_2_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MONUMENT_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_3_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_3_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MONUMENT_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_4_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_4_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MONUMENT_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_5_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_5_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MONUMENT_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_6_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_6_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MONUMENT_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_7_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_7_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MONUMENT_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_8_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MONUMENT_8_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_VILLA_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_VILLA_1_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_1_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_VILLA_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_VILLA_2_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_2_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_VILLA_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_VILLA_3_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_3_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_VILLA_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_VILLA_4_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_4_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_VILLA_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_VILLA_5_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_5_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_VILLA_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_VILLA_6_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_6_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_VILLA_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_VILLA_7_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_7_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_VILLA_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_VILLA_8_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_VILLA_8_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_ARMORER_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_ARMORER_1_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_1_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_ARMORER_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_ARMORER_2_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_2_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_ARMORER_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_ARMORER_3_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_3_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_ARMORER_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_ARMORER_4_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_4_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_ARMORER_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_ARMORER_5_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_5_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_ARMORER_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_ARMORER_6_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_6_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_ARMORER_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_ARMORER_7_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_7_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_ARMORER_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_ARMORER_8_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_ARMORER_8_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_DUNGEON_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_1_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_1_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_DUNGEON_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_2_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_2_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_DUNGEON_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_3_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_3_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_DUNGEON_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_4_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_4_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_DUNGEON_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_5_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_5_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_DUNGEON_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_6_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_6_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_DUNGEON_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_7_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_7_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_DUNGEON_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_8_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_DUNGEON_8_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GUILDHALL_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_1_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_1_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GUILDHALL_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_2_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_2_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GUILDHALL_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_3_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_3_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GUILDHALL_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_4_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_4_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GUILDHALL_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_5_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_5_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GUILDHALL_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_6_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_6_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GUILDHALL_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_7_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_7_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_GUILDHALL_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_8_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_GUILDHALL_8_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_SHIPYARD_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_1_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_1_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_SHIPYARD_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_2_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_2_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_SHIPYARD_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_3_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_3_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_SHIPYARD_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_4_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_4_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_SHIPYARD_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_5_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_5_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_SHIPYARD_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_6_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_6_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_SHIPYARD_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_7_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_7_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_SHIPYARD_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_8_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_SHIPYARD_8_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_TAVERN_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_TAVERN_1_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_1_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_TAVERN_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_TAVERN_2_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_2_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_TAVERN_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_TAVERN_3_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_3_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_TAVERN_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_TAVERN_4_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_4_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_TAVERN_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_TAVERN_5_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_5_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_TAVERN_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_TAVERN_6_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_6_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_TAVERN_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_TAVERN_7_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_7_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_TAVERN_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_TAVERN_8_FOOD" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD" Completion="LOC_SQ_ARCH_FOOD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_TAVERN_8_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_AIRFIELD_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_1_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_1_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_AIRFIELD_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_2_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_2_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_AIRFIELD_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_3_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_3_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_AIRFIELD_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_4_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_4_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_AIRFIELD_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_5_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_5_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_AIRFIELD_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_6_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_6_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_AIRFIELD_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_7_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_7_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_AIRFIELD_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_8_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_AIRFIELD_8_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MILITARY_ACADEMY_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_1_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_1_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MILITARY_ACADEMY_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_2_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_2_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MILITARY_ACADEMY_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_3_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_3_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MILITARY_ACADEMY_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_4_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_4_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MILITARY_ACADEMY_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_5_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_5_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MILITARY_ACADEMY_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_6_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_6_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MILITARY_ACADEMY_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_7_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_7_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_MILITARY_ACADEMY_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_8_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_MILITARY_ACADEMY_8_MILITARY" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY" Completion="LOC_SQ_ARCH_MILITARY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_OPERA_HOUSE_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_1_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_1_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_OPERA_HOUSE_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_2_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_2_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_OPERA_HOUSE_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_3_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_3_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_OPERA_HOUSE_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_4_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_4_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_OPERA_HOUSE_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_5_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_5_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_OPERA_HOUSE_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_6_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_6_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_OPERA_HOUSE_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_7_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_7_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_OPERA_HOUSE_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_8_CULTURE" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE" Completion="LOC_SQ_ARCH_CULTURE" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_OPERA_HOUSE_8_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RADIO_STATION_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_1_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_1_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RADIO_STATION_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_2_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_2_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RADIO_STATION_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_3_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_3_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RADIO_STATION_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_4_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_4_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RADIO_STATION_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_5_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_5_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RADIO_STATION_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_6_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_6_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RADIO_STATION_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_7_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_7_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RADIO_STATION_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_8_DIPLOMACY" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY" Completion="LOC_SQ_ARCH_DIPLOMACY" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RADIO_STATION_8_HAPPINESS" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS" Completion="LOC_SQ_ARCH_HAPPINESS" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_1" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RAIL_STATION_1" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_1_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_1_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_2" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RAIL_STATION_2" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_2_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_2_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_3" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RAIL_STATION_3" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_3_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_3_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_4" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RAIL_STATION_4" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_4_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_4_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_5" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RAIL_STATION_5" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_5_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_5_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_6" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RAIL_STATION_6" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_6_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_6_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_7" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RAIL_STATION_7" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_7_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_7_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_8" Name="LOC_SQ_CHOICE_TITLE" Description="LOC_SQ_CHOICE_TITLE" Completion="LOC_SQ_CHOICE_BODY" StoryTitle="LOC_SQ_CHOICE_TITLE" Activation="AUTO" RequirementSetId="REQSET_SQ_RAIL_STATION_8" UIActivation="DISCOVERY" Queue="NARRATIVE_GROUP_EXCLUDE" ForceChoice="TRUE"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_8_GOLD" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD" Completion="LOC_SQ_ARCH_GOLD" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+        <Row NarrativeStoryType="SQ_RAIL_STATION_8_PRODUCTION" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION" Completion="LOC_SQ_ARCH_PRODUCTION" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="DISCOVERY"/>
+    </NarrativeStories>
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_1" ToNarrativeStoryType="SQ_BARRACKS_1_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_1" ToNarrativeStoryType="SQ_BARRACKS_1_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_2" ToNarrativeStoryType="SQ_BARRACKS_2_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_2" ToNarrativeStoryType="SQ_BARRACKS_2_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_3" ToNarrativeStoryType="SQ_BARRACKS_3_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_3" ToNarrativeStoryType="SQ_BARRACKS_3_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_4" ToNarrativeStoryType="SQ_BARRACKS_4_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_4" ToNarrativeStoryType="SQ_BARRACKS_4_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_5" ToNarrativeStoryType="SQ_BARRACKS_5_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_5" ToNarrativeStoryType="SQ_BARRACKS_5_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_6" ToNarrativeStoryType="SQ_BARRACKS_6_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_6" ToNarrativeStoryType="SQ_BARRACKS_6_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_7" ToNarrativeStoryType="SQ_BARRACKS_7_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_7" ToNarrativeStoryType="SQ_BARRACKS_7_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_8" ToNarrativeStoryType="SQ_BARRACKS_8_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_BARRACKS_8" ToNarrativeStoryType="SQ_BARRACKS_8_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_1" ToNarrativeStoryType="SQ_GARDEN_1_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_1" ToNarrativeStoryType="SQ_GARDEN_1_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_2" ToNarrativeStoryType="SQ_GARDEN_2_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_2" ToNarrativeStoryType="SQ_GARDEN_2_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_3" ToNarrativeStoryType="SQ_GARDEN_3_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_3" ToNarrativeStoryType="SQ_GARDEN_3_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_4" ToNarrativeStoryType="SQ_GARDEN_4_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_4" ToNarrativeStoryType="SQ_GARDEN_4_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_5" ToNarrativeStoryType="SQ_GARDEN_5_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_5" ToNarrativeStoryType="SQ_GARDEN_5_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_6" ToNarrativeStoryType="SQ_GARDEN_6_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_6" ToNarrativeStoryType="SQ_GARDEN_6_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_7" ToNarrativeStoryType="SQ_GARDEN_7_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_7" ToNarrativeStoryType="SQ_GARDEN_7_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_8" ToNarrativeStoryType="SQ_GARDEN_8_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_GARDEN_8" ToNarrativeStoryType="SQ_GARDEN_8_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_1" ToNarrativeStoryType="SQ_MONUMENT_1_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_1" ToNarrativeStoryType="SQ_MONUMENT_1_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_2" ToNarrativeStoryType="SQ_MONUMENT_2_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_2" ToNarrativeStoryType="SQ_MONUMENT_2_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_3" ToNarrativeStoryType="SQ_MONUMENT_3_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_3" ToNarrativeStoryType="SQ_MONUMENT_3_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_4" ToNarrativeStoryType="SQ_MONUMENT_4_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_4" ToNarrativeStoryType="SQ_MONUMENT_4_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_5" ToNarrativeStoryType="SQ_MONUMENT_5_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_5" ToNarrativeStoryType="SQ_MONUMENT_5_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_6" ToNarrativeStoryType="SQ_MONUMENT_6_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_6" ToNarrativeStoryType="SQ_MONUMENT_6_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_7" ToNarrativeStoryType="SQ_MONUMENT_7_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_7" ToNarrativeStoryType="SQ_MONUMENT_7_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_8" ToNarrativeStoryType="SQ_MONUMENT_8_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_MONUMENT_8" ToNarrativeStoryType="SQ_MONUMENT_8_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_1" ToNarrativeStoryType="SQ_VILLA_1_HAPPINESS" Priority="0" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_1" ToNarrativeStoryType="SQ_VILLA_1_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_2" ToNarrativeStoryType="SQ_VILLA_2_HAPPINESS" Priority="0" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_2" ToNarrativeStoryType="SQ_VILLA_2_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_3" ToNarrativeStoryType="SQ_VILLA_3_HAPPINESS" Priority="0" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_3" ToNarrativeStoryType="SQ_VILLA_3_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_4" ToNarrativeStoryType="SQ_VILLA_4_HAPPINESS" Priority="0" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_4" ToNarrativeStoryType="SQ_VILLA_4_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_5" ToNarrativeStoryType="SQ_VILLA_5_HAPPINESS" Priority="0" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_5" ToNarrativeStoryType="SQ_VILLA_5_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_6" ToNarrativeStoryType="SQ_VILLA_6_HAPPINESS" Priority="0" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_6" ToNarrativeStoryType="SQ_VILLA_6_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_7" ToNarrativeStoryType="SQ_VILLA_7_HAPPINESS" Priority="0" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_7" ToNarrativeStoryType="SQ_VILLA_7_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_8" ToNarrativeStoryType="SQ_VILLA_8_HAPPINESS" Priority="0" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_VILLA_8" ToNarrativeStoryType="SQ_VILLA_8_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_1" ToNarrativeStoryType="SQ_ARMORER_1_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_1" ToNarrativeStoryType="SQ_ARMORER_1_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_2" ToNarrativeStoryType="SQ_ARMORER_2_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_2" ToNarrativeStoryType="SQ_ARMORER_2_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_3" ToNarrativeStoryType="SQ_ARMORER_3_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_3" ToNarrativeStoryType="SQ_ARMORER_3_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_4" ToNarrativeStoryType="SQ_ARMORER_4_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_4" ToNarrativeStoryType="SQ_ARMORER_4_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_5" ToNarrativeStoryType="SQ_ARMORER_5_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_5" ToNarrativeStoryType="SQ_ARMORER_5_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_6" ToNarrativeStoryType="SQ_ARMORER_6_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_6" ToNarrativeStoryType="SQ_ARMORER_6_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_7" ToNarrativeStoryType="SQ_ARMORER_7_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_7" ToNarrativeStoryType="SQ_ARMORER_7_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_8" ToNarrativeStoryType="SQ_ARMORER_8_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_ARMORER_8" ToNarrativeStoryType="SQ_ARMORER_8_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_1" ToNarrativeStoryType="SQ_DUNGEON_1_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_1" ToNarrativeStoryType="SQ_DUNGEON_1_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_2" ToNarrativeStoryType="SQ_DUNGEON_2_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_2" ToNarrativeStoryType="SQ_DUNGEON_2_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_3" ToNarrativeStoryType="SQ_DUNGEON_3_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_3" ToNarrativeStoryType="SQ_DUNGEON_3_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_4" ToNarrativeStoryType="SQ_DUNGEON_4_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_4" ToNarrativeStoryType="SQ_DUNGEON_4_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_5" ToNarrativeStoryType="SQ_DUNGEON_5_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_5" ToNarrativeStoryType="SQ_DUNGEON_5_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_6" ToNarrativeStoryType="SQ_DUNGEON_6_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_6" ToNarrativeStoryType="SQ_DUNGEON_6_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_7" ToNarrativeStoryType="SQ_DUNGEON_7_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_7" ToNarrativeStoryType="SQ_DUNGEON_7_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_8" ToNarrativeStoryType="SQ_DUNGEON_8_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_DUNGEON_8" ToNarrativeStoryType="SQ_DUNGEON_8_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_1" ToNarrativeStoryType="SQ_GUILDHALL_1_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_1" ToNarrativeStoryType="SQ_GUILDHALL_1_GOLD" Priority="1" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_2" ToNarrativeStoryType="SQ_GUILDHALL_2_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_2" ToNarrativeStoryType="SQ_GUILDHALL_2_GOLD" Priority="1" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_3" ToNarrativeStoryType="SQ_GUILDHALL_3_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_3" ToNarrativeStoryType="SQ_GUILDHALL_3_GOLD" Priority="1" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_4" ToNarrativeStoryType="SQ_GUILDHALL_4_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_4" ToNarrativeStoryType="SQ_GUILDHALL_4_GOLD" Priority="1" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_5" ToNarrativeStoryType="SQ_GUILDHALL_5_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_5" ToNarrativeStoryType="SQ_GUILDHALL_5_GOLD" Priority="1" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_6" ToNarrativeStoryType="SQ_GUILDHALL_6_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_6" ToNarrativeStoryType="SQ_GUILDHALL_6_GOLD" Priority="1" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_7" ToNarrativeStoryType="SQ_GUILDHALL_7_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_7" ToNarrativeStoryType="SQ_GUILDHALL_7_GOLD" Priority="1" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_8" ToNarrativeStoryType="SQ_GUILDHALL_8_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_GUILDHALL_8" ToNarrativeStoryType="SQ_GUILDHALL_8_GOLD" Priority="1" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_1" ToNarrativeStoryType="SQ_SHIPYARD_1_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_1" ToNarrativeStoryType="SQ_SHIPYARD_1_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_2" ToNarrativeStoryType="SQ_SHIPYARD_2_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_2" ToNarrativeStoryType="SQ_SHIPYARD_2_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_3" ToNarrativeStoryType="SQ_SHIPYARD_3_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_3" ToNarrativeStoryType="SQ_SHIPYARD_3_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_4" ToNarrativeStoryType="SQ_SHIPYARD_4_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_4" ToNarrativeStoryType="SQ_SHIPYARD_4_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_5" ToNarrativeStoryType="SQ_SHIPYARD_5_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_5" ToNarrativeStoryType="SQ_SHIPYARD_5_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_6" ToNarrativeStoryType="SQ_SHIPYARD_6_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_6" ToNarrativeStoryType="SQ_SHIPYARD_6_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_7" ToNarrativeStoryType="SQ_SHIPYARD_7_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_7" ToNarrativeStoryType="SQ_SHIPYARD_7_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_8" ToNarrativeStoryType="SQ_SHIPYARD_8_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_SHIPYARD_8" ToNarrativeStoryType="SQ_SHIPYARD_8_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_1" ToNarrativeStoryType="SQ_TAVERN_1_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_1" ToNarrativeStoryType="SQ_TAVERN_1_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_2" ToNarrativeStoryType="SQ_TAVERN_2_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_2" ToNarrativeStoryType="SQ_TAVERN_2_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_3" ToNarrativeStoryType="SQ_TAVERN_3_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_3" ToNarrativeStoryType="SQ_TAVERN_3_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_4" ToNarrativeStoryType="SQ_TAVERN_4_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_4" ToNarrativeStoryType="SQ_TAVERN_4_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_5" ToNarrativeStoryType="SQ_TAVERN_5_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_5" ToNarrativeStoryType="SQ_TAVERN_5_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_6" ToNarrativeStoryType="SQ_TAVERN_6_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_6" ToNarrativeStoryType="SQ_TAVERN_6_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_7" ToNarrativeStoryType="SQ_TAVERN_7_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_7" ToNarrativeStoryType="SQ_TAVERN_7_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_8" ToNarrativeStoryType="SQ_TAVERN_8_FOOD" Priority="0" Name="LOC_SQ_ARCH_FOOD" Description="LOC_SQ_EFFECT_FOOD"/>
+        <Row FromNarrativeStoryType="SQ_TAVERN_8" ToNarrativeStoryType="SQ_TAVERN_8_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_1" ToNarrativeStoryType="SQ_AIRFIELD_1_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_1" ToNarrativeStoryType="SQ_AIRFIELD_1_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_2" ToNarrativeStoryType="SQ_AIRFIELD_2_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_2" ToNarrativeStoryType="SQ_AIRFIELD_2_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_3" ToNarrativeStoryType="SQ_AIRFIELD_3_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_3" ToNarrativeStoryType="SQ_AIRFIELD_3_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_4" ToNarrativeStoryType="SQ_AIRFIELD_4_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_4" ToNarrativeStoryType="SQ_AIRFIELD_4_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_5" ToNarrativeStoryType="SQ_AIRFIELD_5_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_5" ToNarrativeStoryType="SQ_AIRFIELD_5_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_6" ToNarrativeStoryType="SQ_AIRFIELD_6_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_6" ToNarrativeStoryType="SQ_AIRFIELD_6_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_7" ToNarrativeStoryType="SQ_AIRFIELD_7_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_7" ToNarrativeStoryType="SQ_AIRFIELD_7_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_8" ToNarrativeStoryType="SQ_AIRFIELD_8_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_AIRFIELD_8" ToNarrativeStoryType="SQ_AIRFIELD_8_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_1" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_1_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_1" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_1_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_2" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_2_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_2" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_2_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_3" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_3_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_3" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_3_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_4" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_4_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_4" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_4_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_5" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_5_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_5" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_5_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_6" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_6_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_6" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_6_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_7" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_7_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_7" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_7_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_8" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_8_PRODUCTION" Priority="0" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_MILITARY_ACADEMY_8" ToNarrativeStoryType="SQ_MILITARY_ACADEMY_8_MILITARY" Priority="1" Name="LOC_SQ_ARCH_MILITARY" Description="LOC_SQ_EFFECT_MILITARY"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_1" ToNarrativeStoryType="SQ_OPERA_HOUSE_1_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_1" ToNarrativeStoryType="SQ_OPERA_HOUSE_1_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_2" ToNarrativeStoryType="SQ_OPERA_HOUSE_2_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_2" ToNarrativeStoryType="SQ_OPERA_HOUSE_2_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_3" ToNarrativeStoryType="SQ_OPERA_HOUSE_3_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_3" ToNarrativeStoryType="SQ_OPERA_HOUSE_3_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_4" ToNarrativeStoryType="SQ_OPERA_HOUSE_4_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_4" ToNarrativeStoryType="SQ_OPERA_HOUSE_4_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_5" ToNarrativeStoryType="SQ_OPERA_HOUSE_5_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_5" ToNarrativeStoryType="SQ_OPERA_HOUSE_5_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_6" ToNarrativeStoryType="SQ_OPERA_HOUSE_6_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_6" ToNarrativeStoryType="SQ_OPERA_HOUSE_6_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_7" ToNarrativeStoryType="SQ_OPERA_HOUSE_7_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_7" ToNarrativeStoryType="SQ_OPERA_HOUSE_7_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_8" ToNarrativeStoryType="SQ_OPERA_HOUSE_8_CULTURE" Priority="0" Name="LOC_SQ_ARCH_CULTURE" Description="LOC_SQ_EFFECT_CULTURE"/>
+        <Row FromNarrativeStoryType="SQ_OPERA_HOUSE_8" ToNarrativeStoryType="SQ_OPERA_HOUSE_8_DIPLOMACY" Priority="1" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_1" ToNarrativeStoryType="SQ_RADIO_STATION_1_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_1" ToNarrativeStoryType="SQ_RADIO_STATION_1_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_2" ToNarrativeStoryType="SQ_RADIO_STATION_2_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_2" ToNarrativeStoryType="SQ_RADIO_STATION_2_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_3" ToNarrativeStoryType="SQ_RADIO_STATION_3_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_3" ToNarrativeStoryType="SQ_RADIO_STATION_3_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_4" ToNarrativeStoryType="SQ_RADIO_STATION_4_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_4" ToNarrativeStoryType="SQ_RADIO_STATION_4_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_5" ToNarrativeStoryType="SQ_RADIO_STATION_5_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_5" ToNarrativeStoryType="SQ_RADIO_STATION_5_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_6" ToNarrativeStoryType="SQ_RADIO_STATION_6_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_6" ToNarrativeStoryType="SQ_RADIO_STATION_6_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_7" ToNarrativeStoryType="SQ_RADIO_STATION_7_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_7" ToNarrativeStoryType="SQ_RADIO_STATION_7_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_8" ToNarrativeStoryType="SQ_RADIO_STATION_8_DIPLOMACY" Priority="0" Name="LOC_SQ_ARCH_DIPLOMACY" Description="LOC_SQ_EFFECT_DIPLOMACY"/>
+        <Row FromNarrativeStoryType="SQ_RADIO_STATION_8" ToNarrativeStoryType="SQ_RADIO_STATION_8_HAPPINESS" Priority="1" Name="LOC_SQ_ARCH_HAPPINESS" Description="LOC_SQ_EFFECT_HAPPINESS"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_1" ToNarrativeStoryType="SQ_RAIL_STATION_1_GOLD" Priority="0" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_1" ToNarrativeStoryType="SQ_RAIL_STATION_1_PRODUCTION" Priority="1" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_2" ToNarrativeStoryType="SQ_RAIL_STATION_2_GOLD" Priority="0" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_2" ToNarrativeStoryType="SQ_RAIL_STATION_2_PRODUCTION" Priority="1" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_3" ToNarrativeStoryType="SQ_RAIL_STATION_3_GOLD" Priority="0" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_3" ToNarrativeStoryType="SQ_RAIL_STATION_3_PRODUCTION" Priority="1" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_4" ToNarrativeStoryType="SQ_RAIL_STATION_4_GOLD" Priority="0" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_4" ToNarrativeStoryType="SQ_RAIL_STATION_4_PRODUCTION" Priority="1" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_5" ToNarrativeStoryType="SQ_RAIL_STATION_5_GOLD" Priority="0" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_5" ToNarrativeStoryType="SQ_RAIL_STATION_5_PRODUCTION" Priority="1" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_6" ToNarrativeStoryType="SQ_RAIL_STATION_6_GOLD" Priority="0" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_6" ToNarrativeStoryType="SQ_RAIL_STATION_6_PRODUCTION" Priority="1" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_7" ToNarrativeStoryType="SQ_RAIL_STATION_7_GOLD" Priority="0" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_7" ToNarrativeStoryType="SQ_RAIL_STATION_7_PRODUCTION" Priority="1" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_8" ToNarrativeStoryType="SQ_RAIL_STATION_8_GOLD" Priority="0" Name="LOC_SQ_ARCH_GOLD" Description="LOC_SQ_EFFECT_GOLD"/>
+        <Row FromNarrativeStoryType="SQ_RAIL_STATION_8" ToNarrativeStoryType="SQ_RAIL_STATION_8_PRODUCTION" Priority="1" Name="LOC_SQ_ARCH_PRODUCTION" Description="LOC_SQ_EFFECT_PRODUCTION"/>
+    </NarrativeStory_Links>
+</Database>

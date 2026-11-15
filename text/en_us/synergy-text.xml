@@ -10,6 +10,15 @@
 		<Row Tag="LOC_SQ_CHOICE_CATALYST">
 			<Text>This building becomes the catalyst. Its archetype decides how the foundation is amplified.</Text>
 		</Row>
+		<Row Tag="LOC_SQ_CHOICE_BODY">
+			<Text>Choose which archetype this building uses for the rest of the Age.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_PRODUCTION">
+			<Text>As the second building, it makes the foundation Ageless. The game cannot mark one building Ageless, so this bonus is not applied yet.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_MILITARY">
+			<Text>As the second building, it makes the foundation Ageless. The game cannot mark one building Ageless, so this bonus is not applied yet.</Text>
+		</Row>
 		<Row Tag="LOC_SQ_ARCH_SCIENCE">
 			<Text>Scientific</Text>
 		</Row>

@@ -198,19 +198,32 @@ function asList(value) {
   return [];
 }
 
+function numericPlayerId(value, depth) {
+  if (value == null || depth > 4) return null;
+  if (typeof value === "number" || typeof value === "bigint") return value;
+  if (typeof value !== "object") return null;
+  if (value.Cities && (typeof value.id === "number" || typeof value.id === "bigint")) return value.id;
+  if (typeof value.owner === "number" || typeof value.owner === "bigint") return value.owner;
+  if (value.id != null && value.id !== value) return numericPlayerId(value.id, (depth || 0) + 1);
+  return null;
+}
+
 function playerFromId(id) {
-  if (id == null) return null;
-  if (typeof id === "object" && id.Cities) return id;
-  if (typeof id === "object" && id.playerId != null) return Players.get(id.playerId);
-  if (typeof id === "object" && id.player != null) return playerFromId(id.player);
-  if (typeof id === "object" && id.id != null) return Players.get(id.id);
-  return Players.get(id);
+  if (id && id.Cities) return id;
+  const numeric = numericPlayerId(id, 0);
+  if (numeric == null) return null;
+  try {
+    return Players.get(numeric);
+  } catch (error) {
+    warnOnce("player-get", "Players.get rejected " + numeric);
+    return null;
+  }
 }
 
 function playerFromCity(city) {
   if (!city) return null;
-  const owner = city.owner && city.owner.Cities ? city.owner : city.owner?.id ?? city.owner;
-  return playerFromId(owner);
+  if (city.owner && city.owner.Cities) return city.owner;
+  return playerFromId(city.owner);
 }
 
 function isPlayableMajor(player) {
@@ -309,16 +322,6 @@ function publishPending(player, x, y, building, slot) {
   const encoded = JSON.stringify(payload);
   if (readProp(player, PENDING_KEY) === encoded) return;
   writeProp(player, PENDING_KEY, encoded);
-  try {
-    if (typeof globalThis.SQPresent === "function") globalThis.SQPresent(payload);
-  } catch (error) {
-    console.warn("SQ present choice", error);
-  }
-  try {
-    engine.trigger("sq-open-choice", payload);
-  } catch (error) {
-    console.warn("SQ trigger choice", error);
-  }
 }
 
 function reconcile(player, x, y, present) {
@@ -746,6 +749,90 @@ function onPlayerTurn(player) {
   applyBonuses(player);
 }
 
+const ARCHETYPE_NAMES = ["SCIENCE", "CULTURE", "GOLD", "PRODUCTION", "FOOD", "HAPPINESS", "MILITARY", "DIPLOMACY"];
+
+function parseChoiceStory(type) {
+  if (!type || type.indexOf("SQ_") !== 0) return null;
+  const parts = type.split("_");
+  const archetype = parts[parts.length - 1];
+  if (ARCHETYPE_NAMES.indexOf(archetype) === -1) return null;
+  if (!/^[0-9]+$/.test(parts[parts.length - 2] || "")) return null;
+  const building = "BUILDING_" + parts.slice(1, parts.length - 2).join("_");
+  if (!ARCHETYPES[building]) return null;
+  return { building: building, archetype: archetype };
+}
+
+function collectStrings(value, found) {
+  if (value == null) return;
+  if (typeof value === "string") {
+    found.push(value);
+    return;
+  }
+  if (typeof value !== "object") return;
+  for (const key in value) {
+    try {
+      collectStrings(value[key], found);
+    } catch (error) {
+      continue;
+    }
+  }
+}
+
+function applyChoice(player, building, archetype) {
+  const row = ARCHETYPES[building];
+  if (!row || (archetype !== row.primary && archetype !== row.secondary)) return false;
+  const state = loadState(player);
+  let applied = false;
+  for (const key in state.plots) {
+    const plot = state.plots[key];
+    for (const slotName of ["slot1", "slot2"]) {
+      const slot = plot[slotName];
+      if (slot && slot.building === building && slot.archetype == null) {
+        slot.archetype = archetype;
+        applied = true;
+      }
+    }
+  }
+  if (!applied) return false;
+  saveState(player, state);
+  writeProp(player, PENDING_KEY, "");
+  applyBonuses(player);
+  return true;
+}
+
+function onNarrativeChoice(data) {
+  const player = playerFromId(data && (data.player != null ? data.player : data.playerID));
+  if (!isPlayableMajor(player) && data && data.player == null) return;
+  const target = isPlayableMajor(player) ? player : null;
+  const strings = [];
+  collectStrings(data, strings);
+  for (const value of strings) {
+    const parsed = parseChoiceStory(value);
+    if (parsed && target && applyChoice(target, parsed.building, parsed.archetype)) return;
+  }
+}
+
+function watchNarrativeChoices() {
+  if (!Game || !Game.PlayerOperations || Game.PlayerOperations.__sqWrapped) return;
+  const operations = Game.PlayerOperations;
+  const original = operations.sendRequest;
+  if (typeof original !== "function") return;
+  operations.sendRequest = function(playerId, operation, args) {
+    try {
+      const operationName = operation && operation.toString ? operation.toString() : String(operation);
+      if (operationName.indexOf("NARRATIVE_STORY") !== -1 && args && args.TargetType) {
+        const parsed = parseChoiceStory(args.TargetType);
+        const player = playerFromId(playerId);
+        if (parsed && isPlayableMajor(player)) applyChoice(player, parsed.building, parsed.archetype);
+      }
+    } catch (error) {
+      console.warn("SQ narrative choice", error);
+    }
+    return original.apply(this, arguments);
+  };
+  operations.__sqWrapped = true;
+}
+
 function onGoldenAge() {
   eachMajor((player) => {
     const state = loadState(player);
@@ -814,6 +901,14 @@ if (globalThis.__SQ_BOUND) {
 } else {
   globalThis.__SQ_BOUND = true;
   console.log("SQ synergy gameplay loaded");
+  watchNarrativeChoices();
+engine.on("NarrativeChoiceMade", (data) => {
+  try {
+    onNarrativeChoice(data);
+  } catch (error) {
+    console.error("SQ narrative", error);
+  }
+});
 engine.on("ConstructibleBuildCompleted", (data) => {
   try {
     handleConstruct(data, false);

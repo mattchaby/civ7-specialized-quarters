@@ -18,6 +18,8 @@
 			<Actions>
 				<UpdateDatabase>
 					<Item>data/archetypes.sql</Item>
+					<Item>data/choice-stories.xml</Item>
+					<Item>data/choice-stories-gameeffects.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/synergy-text.xml</Item>
@@ -29,6 +31,7 @@
 				<UIScripts>
 					<Item>scripts/synergy-gameplay.js</Item>
 					<Item>ui/archetype-choice.js</Item>
+					<Item>ui/second-building-panel.js</Item>
 				</UIScripts>
 			</Actions>
 		</ActionGroup>

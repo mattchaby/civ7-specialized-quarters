@@ -10,6 +10,15 @@
 		<Replace Tag="LOC_SQ_CHOICE_CATALYST" Language="fr_FR">
 			<Text>Ce bâtiment devient le catalyseur. Son archétype décide comment la fondation est renforcée.</Text>
 		</Replace>
+		<Replace Tag="LOC_SQ_CHOICE_BODY" Language="fr_FR">
+			<Text>Choisis l'archétype de ce bâtiment pour le reste de l'âge.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_PRODUCTION" Language="fr_FR">
+			<Text>En second bâtiment, il rend la fondation Ageless. Le jeu ne peut pas marquer un seul bâtiment Ageless, donc ce bonus n'est pas encore versé.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_MILITARY" Language="fr_FR">
+			<Text>En second bâtiment, il rend la fondation Ageless. Le jeu ne peut pas marquer un seul bâtiment Ageless, donc ce bonus n'est pas encore versé.</Text>
+		</Replace>
 		<Replace Tag="LOC_SQ_ARCH_SCIENCE" Language="fr_FR">
 			<Text>Scientifique</Text>
 		</Replace>

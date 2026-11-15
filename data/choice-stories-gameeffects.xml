@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <RequirementSet id="REQSET_SQ_BARRACKS_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_BARRACKS</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_BARRACKS_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_BARRACKS</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_BARRACKS_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_BARRACKS</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_BARRACKS_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_BARRACKS</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_BARRACKS_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_BARRACKS</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_BARRACKS_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_BARRACKS</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_BARRACKS_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_BARRACKS</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_BARRACKS_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_BARRACKS</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GARDEN_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GARDEN</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GARDEN_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GARDEN</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GARDEN_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GARDEN</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GARDEN_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GARDEN</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GARDEN_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GARDEN</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GARDEN_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GARDEN</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GARDEN_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GARDEN</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GARDEN_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GARDEN</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MONUMENT_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MONUMENT</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MONUMENT_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MONUMENT</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MONUMENT_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MONUMENT</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MONUMENT_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MONUMENT</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MONUMENT_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MONUMENT</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MONUMENT_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MONUMENT</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MONUMENT_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MONUMENT</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MONUMENT_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MONUMENT</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_VILLA_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_VILLA</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_VILLA_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_VILLA</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_VILLA_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_VILLA</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_VILLA_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_VILLA</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_VILLA_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_VILLA</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_VILLA_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_VILLA</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_VILLA_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_VILLA</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_VILLA_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_VILLA</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_ARMORER_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_ARMORER</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_ARMORER_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_ARMORER</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_ARMORER_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_ARMORER</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_ARMORER_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_ARMORER</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_ARMORER_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_ARMORER</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_ARMORER_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_ARMORER</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_ARMORER_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_ARMORER</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_ARMORER_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_ARMORER</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_DUNGEON_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_DUNGEON</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_DUNGEON_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_DUNGEON</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_DUNGEON_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_DUNGEON</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_DUNGEON_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_DUNGEON</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_DUNGEON_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_DUNGEON</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_DUNGEON_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_DUNGEON</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_DUNGEON_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_DUNGEON</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_DUNGEON_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_DUNGEON</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GUILDHALL_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GUILDHALL</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GUILDHALL_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GUILDHALL</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GUILDHALL_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GUILDHALL</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GUILDHALL_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GUILDHALL</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GUILDHALL_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GUILDHALL</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GUILDHALL_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GUILDHALL</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GUILDHALL_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GUILDHALL</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_GUILDHALL_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_GUILDHALL</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_SHIPYARD_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SHIPYARD</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_SHIPYARD_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SHIPYARD</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_SHIPYARD_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SHIPYARD</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_SHIPYARD_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SHIPYARD</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_SHIPYARD_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SHIPYARD</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_SHIPYARD_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SHIPYARD</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_SHIPYARD_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SHIPYARD</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_SHIPYARD_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_SHIPYARD</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_TAVERN_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_TAVERN</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_TAVERN_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_TAVERN</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_TAVERN_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_TAVERN</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_TAVERN_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_TAVERN</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_TAVERN_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_TAVERN</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_TAVERN_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_TAVERN</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_TAVERN_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_TAVERN</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_TAVERN_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_TAVERN</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_AIRFIELD_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_AIRFIELD</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_AIRFIELD_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_AIRFIELD</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_AIRFIELD_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_AIRFIELD</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_AIRFIELD_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_AIRFIELD</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_AIRFIELD_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_AIRFIELD</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_AIRFIELD_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_AIRFIELD</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_AIRFIELD_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_AIRFIELD</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_AIRFIELD_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_AIRFIELD</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MILITARY_ACADEMY_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MILITARY_ACADEMY</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MILITARY_ACADEMY_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MILITARY_ACADEMY</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MILITARY_ACADEMY_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MILITARY_ACADEMY</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MILITARY_ACADEMY_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MILITARY_ACADEMY</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MILITARY_ACADEMY_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MILITARY_ACADEMY</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MILITARY_ACADEMY_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MILITARY_ACADEMY</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MILITARY_ACADEMY_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MILITARY_ACADEMY</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_MILITARY_ACADEMY_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_MILITARY_ACADEMY</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_OPERA_HOUSE_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_OPERA_HOUSE</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_OPERA_HOUSE_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_OPERA_HOUSE</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_OPERA_HOUSE_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_OPERA_HOUSE</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_OPERA_HOUSE_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_OPERA_HOUSE</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_OPERA_HOUSE_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_OPERA_HOUSE</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_OPERA_HOUSE_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_OPERA_HOUSE</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_OPERA_HOUSE_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_OPERA_HOUSE</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_OPERA_HOUSE_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_OPERA_HOUSE</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RADIO_STATION_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RADIO_STATION</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RADIO_STATION_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RADIO_STATION</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RADIO_STATION_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RADIO_STATION</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RADIO_STATION_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RADIO_STATION</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RADIO_STATION_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RADIO_STATION</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RADIO_STATION_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RADIO_STATION</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RADIO_STATION_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RADIO_STATION</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RADIO_STATION_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RADIO_STATION</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RAIL_STATION_1" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RAIL_STATION</Argument>
+            <Argument name="DuplicateCount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RAIL_STATION_2" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RAIL_STATION</Argument>
+            <Argument name="DuplicateCount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RAIL_STATION_3" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RAIL_STATION</Argument>
+            <Argument name="DuplicateCount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RAIL_STATION_4" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RAIL_STATION</Argument>
+            <Argument name="DuplicateCount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RAIL_STATION_5" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RAIL_STATION</Argument>
+            <Argument name="DuplicateCount">5</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RAIL_STATION_6" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RAIL_STATION</Argument>
+            <Argument name="DuplicateCount">6</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RAIL_STATION_7" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RAIL_STATION</Argument>
+            <Argument name="DuplicateCount">7</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_SQ_RAIL_STATION_8" type="REQUIREMENTSET_TEST_ALL">
+        <Requirement type="REQUIREMENT_PLAYER_IS_HUMAN"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_RAIL_STATION</Argument>
+            <Argument name="DuplicateCount">8</Argument>
+        </Requirement>
+    </RequirementSet>
+</GameEffects>
