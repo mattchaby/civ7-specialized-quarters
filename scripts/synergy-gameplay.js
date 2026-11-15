@@ -158,7 +158,8 @@ function blankState() {
     lastGrantTurn: -1,
     probed: false,
     plots: {},
-    militaryPercent: {}
+    militaryPercent: {},
+    usedDoctrines: {}
   };
 }
 
@@ -170,6 +171,7 @@ function loadState(player) {
     if (!parsed || typeof parsed !== "object") return blankState();
     parsed.plots = parsed.plots || {};
     parsed.militaryPercent = parsed.militaryPercent || {};
+    parsed.usedDoctrines = parsed.usedDoctrines || {};
     parsed.celebrations = parsed.celebrations || 0;
     return parsed;
   } catch (error) {
@@ -304,6 +306,7 @@ function rememberAge(state) {
   if (state.age && age && state.age !== age) {
     state.celebrations = 0;
     state.wasCelebrating = false;
+    state.usedDoctrines = {};
   }
   state.age = age;
 }
@@ -329,8 +332,8 @@ function reconcile(player, x, y, present) {
   const key = x + "," + y;
   const prev = state.plots[key] || {};
   const known = {};
-  if (prev.slot1 && prev.slot1.building) known[prev.slot1.building] = prev.slot1.archetype;
-  if (prev.slot2 && prev.slot2.building) known[prev.slot2.building] = prev.slot2.archetype;
+  if (prev.slot1 && prev.slot1.building) known[prev.slot1.building] = prev.slot1;
+  if (prev.slot2 && prev.slot2.building) known[prev.slot2.building] = prev.slot2;
   const ordered = [];
   if (prev.slot1 && present.includes(prev.slot1.building)) ordered.push(prev.slot1.building);
   if (prev.slot2 && present.includes(prev.slot2.building) && ordered.indexOf(prev.slot2.building) === -1) {
@@ -350,15 +353,20 @@ function reconcile(player, x, y, present) {
     if (!type) continue;
     const row = ARCHETYPES[type];
     let archetype;
-    if (Object.prototype.hasOwnProperty.call(known, type)) archetype = known[type];
+    if (known[type]) archetype = known[type].archetype;
     else if (!row.secondary || player.isHuman === false) archetype = row.primary;
     else archetype = null;
-    next[index === 0 ? "slot1" : "slot2"] = { building: type, archetype: archetype };
+    next[index === 0 ? "slot1" : "slot2"] = {
+      building: type,
+      archetype: archetype,
+      doctrine: known[type] && known[type].doctrine ? known[type].doctrine : null
+    };
   }
   state.plots[key] = next;
   saveState(player, state);
   if (next.slot1 && next.slot1.archetype == null) publishPending(player, x, y, next.slot1.building, 1);
   else if (next.slot2 && next.slot2.archetype == null) publishPending(player, x, y, next.slot2.building, 2);
+  notifyDoctrine(player);
 }
 
 function handleConstruct(data, removed) {
@@ -738,6 +746,7 @@ function applyBonuses(player) {
   for (const key in direct) pay(direct[key]);
   for (const key in exported) pay(exported[key]);
   saveState(player, fresh);
+  if (globalThis.SQDoctrine && SQDoctrine.apply) SQDoctrine.apply(player);
 }
 
 function onPlayerTurn(player) {
@@ -799,6 +808,7 @@ function applyChoice(player, building, archetype) {
   saveState(player, state);
   writeProp(player, PENDING_KEY, "");
   applyBonuses(player);
+  notifyDoctrine(player);
   return true;
 }
 
@@ -952,11 +962,32 @@ function quarterInfo(x, y) {
   };
 }
 
+function notifyDoctrine(player) {
+  if (globalThis.SQDoctrine && SQDoctrine.onSlots) SQDoctrine.onSlots(player);
+}
+
 globalThis.SQ = {
   quarterInfo: quarterInfo,
   previewPlacement: previewPlacement,
   warehouseKind: warehouseKind,
-  archetypes: ARCHETYPES
+  archetypes: ARCHETYPES,
+  readState: loadState,
+  writeState: saveState,
+  grant: grantYield,
+  cityAt: cityAt,
+  playerFromCity: playerFromCity,
+  playerFromId: playerFromId,
+  numericId: function(value) { return numericPlayerId(value, 0); },
+  isMajor: isPlayableMajor,
+  eachMajor: eachMajor,
+  plotIndex: plotIndex,
+  locationFromIndex: locationFromIndex,
+  asList: asList,
+  specialistsAt: specialistsAt,
+  assignedResources: assignedResources,
+  buildingsAt: buildingsAt,
+  constructibleType: constructibleType,
+  yieldOf: YIELD_OF
 };
 
 loadArchetypeTable();

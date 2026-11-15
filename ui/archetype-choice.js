@@ -324,6 +324,7 @@ function tooltipLines(x, y) {
   const info = globalThis.SQ.quarterInfo(x, y);
   if (!info || !info.foundation || !info.foundation.archetype) return null;
   const lines = [loc("LOC_SQ_TOOLTIP_SPEC") + " " + loc("LOC_SQ_ARCH_" + info.foundation.archetype)];
+  if (info.foundation.doctrine) lines.push(loc("LOC_SQ_DOC_" + info.foundation.doctrine + "_NAME"));
   if (info.catalyst && info.catalyst.building) {
     lines.push(loc("LOC_SQ_NO_ADJACENCY"));
     lines.push(effectForSecond(info.catalyst.building, info.catalyst.archetype));

@@ -118,5 +118,118 @@
 		<Replace Tag="LOC_SQ_PLACEMENT_ALT_TOWN_PERCENT" Language="fr_FR">
 			<Text>Autre archétype : {1_Amount: number +#;-#} % de production d'unités militaires dans chaque ville connectée ({2_Count})</Text>
 		</Replace>
+		<Replace Tag="LOC_SQ_DOCTRINE_TITLE" Language="fr_FR"><Text>Doctrine du quartier</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_0_NAME" Language="fr_FR"><Text>Exploitation</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_0_DESC" Language="fr_FR"><Text>Conserve la proximité de ce bâtiment. Peut être choisie sans limite.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_1_NAME" Language="fr_FR"><Text>Druisme</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_1_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Science par case de végétation adjacente.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_2_NAME" Language="fr_FR"><Text>Académie maritime</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_2_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Science par côte ou lac adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_3_NAME" Language="fr_FR"><Text>Enseignement</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_3_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Science par quartier urbain adjacent d'un autre archétype.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_4_NAME" Language="fr_FR"><Text>Érudition</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_4_DESC" Language="fr_FR"><Text>Unique cet âge. +2 Science par codex dans cette ville. Un emplacement de codex supplémentaire ne peut pas être ajouté à un seul bâtiment.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_5_NAME" Language="fr_FR"><Text>Élitisme</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_5_DESC" Language="fr_FR"><Text>Unique cet âge. +2 Science par spécialiste ici. +10 % de vitesse de maîtrise technologique si le jeu permet cet ajustement. Un emplacement de spécialiste supplémentaire est ajouté si le jeu le permet.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_6_NAME" Language="fr_FR"><Text>Prototypage</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_SCIENCE_6_DESC" Language="fr_FR"><Text>Unique cet âge. Quand une technologie ou une maîtrise technologique est achevée, cette ville gagne de la Production égale à la Science de ce quartier.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_0_NAME" Language="fr_FR"><Text>Architecture monumentale</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_0_DESC" Language="fr_FR"><Text>Conserve la proximité de ce bâtiment. Peut être choisie sans limite.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_1_NAME" Language="fr_FR"><Text>Agora</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_1_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Culture par quartier urbain adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_2_NAME" Language="fr_FR"><Text>Tradition pastorale</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_2_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Culture par pâturage ou plantation adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_3_NAME" Language="fr_FR"><Text>Sanctuaire côtier</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_3_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Culture par fleuve navigable ou côte adjacente.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_4_NAME" Language="fr_FR"><Text>Conservatoire</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_4_DESC" Language="fr_FR"><Text>Unique cet âge. +2 Culture par chef-d'œuvre ou relique dans cette ville. Un emplacement d'exposition supplémentaire ne peut pas être ajouté à un seul bâtiment.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_5_NAME" Language="fr_FR"><Text>Rhétorique</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_5_DESC" Language="fr_FR"><Text>Unique cet âge. +2 Culture par spécialiste ici. +10 % de vitesse de maîtrise civique si le jeu permet cet ajustement.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_6_NAME" Language="fr_FR"><Text>Tradition épique</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_CULTURE_6_DESC" Language="fr_FR"><Text>Unique cet âge. Quand un dogme ou une maîtrise civique est achevé, cette ville gagne de l'Influence égale à la Culture de ce quartier.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_0_NAME" Language="fr_FR"><Text>Commerce fluvial et maritime</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_0_DESC" Language="fr_FR"><Text>Conserve la proximité de ce bâtiment. Peut être choisie sans limite.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_1_NAME" Language="fr_FR"><Text>Caravansérail</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_1_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Or par ressource adjacente.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_2_NAME" Language="fr_FR"><Text>Bazar urbain</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_2_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Or par quartier urbain adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_3_NAME" Language="fr_FR"><Text>Poste frontalier</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_3_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Or par aménagement rural adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_4_NAME" Language="fr_FR"><Text>Bourse des ressources</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_4_DESC" Language="fr_FR"><Text>Unique cet âge. +2 Or par ressource assignée à cette ville. Un emplacement de ressource supplémentaire est ajouté si le jeu le permet.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_5_NAME" Language="fr_FR"><Text>Guilde des marchands</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_5_DESC" Language="fr_FR"><Text>Unique cet âge. +2 Or par spécialiste ici. Les achats dans cette ville sont réduits de 10 % si le jeu le permet.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_6_NAME" Language="fr_FR"><Text>Douane</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_GOLD_6_DESC" Language="fr_FR"><Text>Unique cet âge. Quand une route commerciale est créée, cette ville gagne de la Nourriture égale à l'Or de ce quartier.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_0_NAME" Language="fr_FR"><Text>Extraction</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_0_DESC" Language="fr_FR"><Text>Conserve la proximité de ce bâtiment. Peut être choisie sans limite.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_1_NAME" Language="fr_FR"><Text>Génie hydraulique</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_1_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Production par fleuve navigable ou côte adjacente.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_2_NAME" Language="fr_FR"><Text>Sylviculture</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_2_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Production par case de végétation adjacente.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_3_NAME" Language="fr_FR"><Text>Quartier des artisans</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_3_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Production par quartier urbain adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_4_NAME" Language="fr_FR"><Text>Arsenal</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_4_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Production par ressource stratégique de l'empire.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_5_NAME" Language="fr_FR"><Text>Guilde des bâtisseurs</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_5_DESC" Language="fr_FR"><Text>Unique cet âge. +2 Production par spécialiste ici. +10 % de Production vers les bâtiments et les merveilles si le jeu le permet.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_6_NAME" Language="fr_FR"><Text>Standardisation</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_PRODUCTION_6_DESC" Language="fr_FR"><Text>Unique cet âge. Quand un bâtiment ou une merveille est achevé dans cette ville, elle gagne de la Science égale à la Production de ce quartier.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_0_NAME" Language="fr_FR"><Text>Agriculture des plaines inondables</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_0_DESC" Language="fr_FR"><Text>Conserve la proximité de ce bâtiment. Peut être choisie sans limite.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_1_NAME" Language="fr_FR"><Text>Pêcheries côtières</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_1_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Nourriture par côte, lac ou récif adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_2_NAME" Language="fr_FR"><Text>Terrasses</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_2_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Nourriture par case de relief accidenté adjacente.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_3_NAME" Language="fr_FR"><Text>Halle des provisions</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_3_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Nourriture par ressource adjacente et par quartier achevé adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_4_NAME" Language="fr_FR"><Text>Greniers impériaux</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_4_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Nourriture par ferme ou pâturage exploité par cette ville.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_5_NAME" Language="fr_FR"><Text>Ravitaillement civique</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_5_DESC" Language="fr_FR"><Text>Unique cet âge. +2 Nourriture par spécialiste ici. L'entretien en Nourriture des spécialistes de ce quartier est annulé si le jeu le permet.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_6_NAME" Language="fr_FR"><Text>Surplus agricole</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_FOOD_6_DESC" Language="fr_FR"><Text>Unique cet âge. Quand cette ville gagne de la population, elle gagne de l'Or égal à la Nourriture de ce quartier.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_0_NAME" Language="fr_FR"><Text>Sanctuaire naturel</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_0_DESC" Language="fr_FR"><Text>Conserve la proximité de ce bâtiment. Peut être choisie sans limite.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_1_NAME" Language="fr_FR"><Text>Bains côtiers</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_1_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Bonheur par côte, lac ou fleuve navigable adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_2_NAME" Language="fr_FR"><Text>Place des fêtes</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_2_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Bonheur par quartier urbain adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_3_NAME" Language="fr_FR"><Text>Bois sacrés</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_3_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Bonheur par ressource ou merveille adjacente.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_4_NAME" Language="fr_FR"><Text>Fierté monumentale</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_4_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Bonheur par merveille de l'empire.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_5_NAME" Language="fr_FR"><Text>Jeux publics</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_5_DESC" Language="fr_FR"><Text>Unique cet âge. Chaque spécialiste ici donne +2 Bonheur par tradition placée. L'entretien en Bonheur de ce quartier est annulé si le jeu le permet.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_6_NAME" Language="fr_FR"><Text>Euphorie collective</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_HAPPINESS_6_DESC" Language="fr_FR"><Text>Unique cet âge. Quand une célébration commence, cette ville gagne de la Culture égale au Bonheur de ce quartier.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_0_NAME" Language="fr_FR"><Text>Garnison frontalière</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_0_DESC" Language="fr_FR"><Text>Conserve la proximité de ce bâtiment. Peut être choisie sans limite.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_1_NAME" Language="fr_FR"><Text>Arsenal naval</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_1_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Production par côte ou fleuve navigable adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_2_NAME" Language="fr_FR"><Text>Citadelle de montagne</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_2_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Production par montagne ou case accidentée adjacente.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_3_NAME" Language="fr_FR"><Text>Conscription urbaine</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_3_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Production par quartier urbain adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_4_NAME" Language="fr_FR"><Text>Commissariat militaire</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_4_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Production par promotion obtenue par vos commandants.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_5_NAME" Language="fr_FR"><Text>État-major</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_5_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Or par commandant actif pour chaque spécialiste ici. L'expérience de combat est donnée aux unités formées si le jeu le permet.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_6_NAME" Language="fr_FR"><Text>Butin de guerre</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_MILITARY_6_DESC" Language="fr_FR"><Text>Unique cet âge. Quand une de vos unités vainc une unité ennemie, cette ville gagne de l'Or égal à la Production de ce quartier.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_0_NAME" Language="fr_FR"><Text>Résidence officielle</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_0_DESC" Language="fr_FR"><Text>Conserve la proximité de ce bâtiment. Peut être choisie sans limite.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_1_NAME" Language="fr_FR"><Text>Ambassade frontalière</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_1_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Influence par case adjacente possédée par une autre civilisation.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_2_NAME" Language="fr_FR"><Text>Pavillon du palais</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_2_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Influence par bâtiment dans un centre-ville adjacent.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_3_NAME" Language="fr_FR"><Text>Échange de prestige</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_3_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Influence par ressource adjacente.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_4_NAME" Language="fr_FR"><Text>Corps diplomatique</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_4_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Influence par cité-État dont vous êtes suzerain.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_5_NAME" Language="fr_FR"><Text>Chancellerie</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_5_DESC" Language="fr_FR"><Text>Unique cet âge. +1 Influence par spécialiste ici. Le coût des actions diplomatiques est réduit de 10 % si le jeu le permet.</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_6_NAME" Language="fr_FR"><Text>Propagande</Text></Replace>
+		<Replace Tag="LOC_SQ_DOC_DIPLOMACY_6_DESC" Language="fr_FR"><Text>Unique cet âge. Quand une entreprise diplomatique se termine, cette ville gagne du Bonheur égal à l'Influence de ce quartier.</Text></Replace>
 	</LocalizedText>
 </Database>

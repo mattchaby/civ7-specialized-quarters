@@ -20,18 +20,24 @@
 					<Item>data/archetypes.sql</Item>
 					<Item>data/choice-stories.xml</Item>
 					<Item>data/choice-stories-gameeffects.xml</Item>
+					<Item>data/doctrines.sql</Item>
 				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/en_us/synergy-text.xml</Item>
 					<Item>text/fr_FR/synergy-text.xml</Item>
 				</UpdateText>
 				<ScenarioScripts>
+					<Item>scripts/doctrine-data.js</Item>
 					<Item>scripts/synergy-gameplay.js</Item>
+					<Item>scripts/doctrine-runtime.js</Item>
 				</ScenarioScripts>
 				<UIScripts>
+					<Item>scripts/doctrine-data.js</Item>
 					<Item>scripts/synergy-gameplay.js</Item>
+					<Item>scripts/doctrine-runtime.js</Item>
 					<Item>ui/archetype-choice.js</Item>
 					<Item>ui/second-building-panel.js</Item>
+					<Item>ui/doctrine-chooser.js</Item>
 				</UIScripts>
 			</Actions>
 		</ActionGroup>
