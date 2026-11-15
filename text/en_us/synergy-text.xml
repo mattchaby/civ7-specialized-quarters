@@ -85,5 +85,38 @@
 		<Row Tag="LOC_SQ_WAREHOUSE_PRODUCTION">
 			<Text>Production warehouse: the foundation becomes Ageless and keeps its yields into the next Age. The game cannot flag a single building as Ageless, so this is not applied yet.</Text>
 		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_SYNERGY">
+			<Text>Synergy:</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_ALT_LABEL">
+			<Text>Other archetype:</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_LINE">
+			<Text>Synergy: {1_Amount: number +#;-#} [icon:{2_Yield}]</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_ALT">
+			<Text>Other archetype: {1_Amount: number +#;-#} [icon:{2_Yield}]</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_PERCENT">
+			<Text>Synergy: {1_Amount: number +#;-#}% military unit production</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_ALT_PERCENT">
+			<Text>Other archetype: {1_Amount: number +#;-#}% military unit production</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_TOWNS">
+			<Text>Synergy: {1_Amount: number +#;-#} [icon:{2_Yield}] in each connected town ({3_Count})</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_ALT_TOWNS">
+			<Text>Other archetype: {1_Amount: number +#;-#} [icon:{2_Yield}] in each connected town ({3_Count})</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_ALT_AGELESS">
+			<Text>Other archetype: the foundation would become Ageless. This bonus is not applied yet.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_TOWN_PERCENT">
+			<Text>Synergy: {1_Amount: number +#;-#}% military unit production in each connected town ({2_Count})</Text>
+		</Row>
+		<Row Tag="LOC_SQ_PLACEMENT_ALT_TOWN_PERCENT">
+			<Text>Other archetype: {1_Amount: number +#;-#}% military unit production in each connected town ({2_Count})</Text>
+		</Row>
 	</EnglishText>
 </Database>

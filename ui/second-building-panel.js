@@ -105,4 +105,220 @@ ComponentRegistry.register({
   overridePriority: 10
 });
 
+function sameComponentId(left, right) {
+  if (left == null || right == null) return false;
+  if (left === right) return true;
+  if (typeof ComponentID !== "undefined" && ComponentID.isMatch) return ComponentID.isMatch(left, right);
+  return left.owner === right.owner && left.id === right.id;
+}
+
+function placingAsSecondBuilding(manager, plotIndex) {
+  if (plotIndex == null || !GameplayMap.getLocationFromIndex || !Districts.getAtLocation) return false;
+  const location = GameplayMap.getLocationFromIndex(plotIndex);
+  if (!location) return false;
+  const district = Districts.getAtLocation(location);
+  if (!district || !district.getConstructibleIds) return false;
+  let replaced = null;
+  try {
+    replaced = manager.getOverbuildConstructibleID(plotIndex);
+  } catch (error) {
+    replaced = null;
+  }
+  let remaining = 0;
+  for (const id of district.getConstructibleIds()) {
+    if (replaced != null && sameComponentId(id, replaced)) continue;
+    const instance = Constructibles.getByComponentID(id);
+    if (!instance || instance.complete === false) continue;
+    const info = GameInfo.Constructibles.lookup(instance.type);
+    if (!info || info.ConstructibleClass !== "BUILDING" || info.ExistingDistrictOnly) continue;
+    remaining += 1;
+  }
+  return remaining >= 1;
+}
+
+function overbuildType(manager, plotIndex) {
+  try {
+    const id = manager.getOverbuildConstructibleID(plotIndex);
+    const instance = id && Constructibles.getByComponentID(id);
+    const info = instance && GameInfo.Constructibles.lookup(instance.type);
+    return info ? info.ConstructibleType : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function placementPreview(manager, plotIndex) {
+  if (!globalThis.SQ || !globalThis.SQ.previewPlacement) return null;
+  const location = GameplayMap.getLocationFromIndex(plotIndex);
+  const building = manager.currentConstructible && manager.currentConstructible.ConstructibleType;
+  if (!location || !building) return null;
+  try {
+    return globalThis.SQ.previewPlacement(location.x, location.y, building, overbuildType(manager, plotIndex));
+  } catch (error) {
+    console.warn("SQ placement preview", error);
+    return null;
+  }
+}
+
+function addCityYield(yields, yieldType, amount) {
+  if (!yields || !yieldType || !amount) return;
+  const definition = GameInfo.Yields.lookup(yieldType);
+  if (!definition || yields[definition.$index] == null) return;
+  yields[definition.$index] += amount;
+}
+
+function yieldBonusHtml(amount, yieldType) {
+  try {
+    return Locale.stylize("LOC_BUILDING_PLACEMENT_YIELD_BONUS", amount > 0 ? "text-positive" : "text-negative", amount, yieldType);
+  } catch (error) {
+    return (amount > 0 ? "+" : "") + amount;
+  }
+}
+
+function composeLine(key, args) {
+  try {
+    return Locale.compose.apply(Locale, [key].concat(args));
+  } catch (error) {
+    return "";
+  }
+}
+
+function optionSentence(option, alternate) {
+  if (option.ageless) return composeLine(alternate ? "LOC_SQ_PLACEMENT_ALT_AGELESS" : "LOC_SQ_EFFECT_AGELESS", []);
+  if (option.diplomacy && option.military) {
+    return composeLine(alternate ? "LOC_SQ_PLACEMENT_ALT_TOWN_PERCENT" : "LOC_SQ_PLACEMENT_TOWN_PERCENT", [option.amount, option.towns]);
+  }
+  if (option.military) return composeLine(alternate ? "LOC_SQ_PLACEMENT_ALT_PERCENT" : "LOC_SQ_PLACEMENT_PERCENT", [option.amount]);
+  if (option.diplomacy) {
+    return composeLine(alternate ? "LOC_SQ_PLACEMENT_ALT_TOWNS" : "LOC_SQ_PLACEMENT_TOWNS", [option.amount, option.yieldType || "", option.towns]);
+  }
+  return composeLine(alternate ? "LOC_SQ_PLACEMENT_ALT" : "LOC_SQ_PLACEMENT_LINE", [option.amount, option.yieldType || ""]);
+}
+
+function catalystLines(preview) {
+  const lines = [];
+  const sentences = [];
+  if (!preview) return { lines: lines, sentences: sentences };
+  for (let index = 0; index < preview.options.length; index++) {
+    const option = preview.options[index];
+    const alternate = index > 0;
+    const sentence = optionSentence(option, alternate);
+    if (sentence) sentences.push(sentence);
+    const bonuses = [];
+    if (option.ageless || option.military || option.diplomacy) {
+      if (sentence) bonuses.push(sentence);
+    } else if (option.yieldType) {
+      bonuses.push(yieldBonusHtml(option.amount, option.yieldType));
+    }
+    if (bonuses.length) {
+      lines.push({
+        description: alternate ? "LOC_SQ_PLACEMENT_ALT_LABEL" : "LOC_SQ_PLACEMENT_SYNERGY",
+        bonuses: bonuses
+      });
+    }
+  }
+  return { lines: lines, sentences: sentences };
+}
+
+function withoutPlacedAdjacency(plotIndex, data, manager) {
+  if (!data || !data.changeDetails || typeof YieldSourceTypes === "undefined") return data;
+  if (!placingAsSecondBuilding(manager, plotIndex)) return data;
+  const yields = data.yieldChanges ? data.yieldChanges.slice() : null;
+  const details = [];
+  for (const change of data.changeDetails) {
+    if (change.sourceType === YieldSourceTypes.ADJACENCY) {
+      if (yields) {
+        const yieldDefinition = GameInfo.Yields.lookup(change.yieldType);
+        if (yieldDefinition && yields[yieldDefinition.$index] != null) {
+          yields[yieldDefinition.$index] -= change.change;
+        }
+      }
+      continue;
+    }
+    details.push(change);
+  }
+  const preview = placementPreview(manager, plotIndex);
+  const shown = catalystLines(preview);
+  const primary = preview && preview.options[0];
+  if (primary && yields && !primary.ageless && !primary.diplomacy && !primary.military) {
+    addCityYield(yields, primary.yieldType, primary.amount);
+  }
+  return Object.assign({}, data, {
+    changeDetails: details,
+    yieldChanges: yields || data.yieldChanges,
+    __sqLines: shown.lines,
+    __sqSentences: shown.sentences
+  });
+}
+
+let placementManager = null;
+
+function hideSecondBuildingAdjacency(manager) {
+  if (!manager || manager.__sqAdjacency) return;
+  placementManager = manager;
+  const originalPlotData = manager.getPlacementPlotData.bind(manager);
+  const originalChangeDetails = manager.getPlacementChangeDetails.bind(manager);
+  const originalBreakdown = manager.getYieldBonusBreakdownFromPlacementData.bind(manager);
+  manager.getPlacementPlotData = function(plotIndex) {
+    return withoutPlacedAdjacency(plotIndex, originalPlotData(plotIndex), manager);
+  };
+  manager.getPlacementChangeDetails = function(plotIndex, sourceType) {
+    if (typeof YieldSourceTypes !== "undefined" && sourceType === YieldSourceTypes.ADJACENCY && placingAsSecondBuilding(manager, plotIndex)) {
+      return [];
+    }
+    return originalChangeDetails(plotIndex, sourceType);
+  };
+  manager.getYieldBonusBreakdownFromPlacementData = function(placementData) {
+    const bonuses = originalBreakdown(placementData);
+    if (placementData && placementData.__sqLines) {
+      for (const line of placementData.__sqLines) bonuses.push(line);
+    }
+    return bonuses;
+  };
+  manager.__sqAdjacency = true;
+  console.log("SQ placement adjacency hidden for second buildings");
+}
+
+function notePlacement(model) {
+  if (!model || model.selectedPlotIndex == null || !placementManager) return;
+  if (!placingAsSecondBuilding(placementManager, model.selectedPlotIndex)) return;
+  const data = placementManager.getPlacementPlotData(model.selectedPlotIndex);
+  const sentences = data && data.__sqSentences;
+  if (!sentences || !sentences.length) return;
+  const note = sentences.filter(Boolean).join(" ");
+  if (!note) return;
+  model.tileConversionText = model.tileConversionText ? model.tileConversionText + " " + note : note;
+}
+
+function watchPlacementModel(model) {
+  if (!model || model.__sqWatch) return;
+  model.__sqWatch = true;
+  setInterval(() => {
+    if (!model._OnUpdate || model._OnUpdate.__sq) return;
+    const original = model._OnUpdate;
+    const wrapped = function(self) {
+      try {
+        notePlacement(self || model);
+      } catch (error) {
+        console.warn("SQ placement note", error);
+      }
+      return original(self || model);
+    };
+    wrapped.__sq = true;
+    model.updateCallback = wrapped;
+  }, 400);
+}
+
+import("../../base-standard/ui/building-placement/building-placement-manager.js").then((mod) => {
+  hideSecondBuildingAdjacency(mod.BuildingPlacementManager);
+}).catch((error) => {
+  console.warn("SQ placement manager", error);
+});
+
+import("../../base-standard/ui/place-building/model-place-building-v2.js").then((mod) => {
+  watchPlacementModel(mod.PlaceBuildingV2);
+}).catch((error) => {
+  console.warn("SQ placement model", error);
+});
+
 console.log("SQ second-building panel registered");

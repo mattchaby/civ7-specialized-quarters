@@ -85,5 +85,38 @@
 		<Replace Tag="LOC_SQ_WAREHOUSE_PRODUCTION" Language="fr_FR">
 			<Text>Entrepôt de production : la fondation devient Ageless et conserve ses rendements à l'âge suivant. Le jeu ne peut pas marquer un seul bâtiment Ageless, donc ce bonus n'est pas encore versé.</Text>
 		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_SYNERGY" Language="fr_FR">
+			<Text>Synergie :</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_ALT_LABEL" Language="fr_FR">
+			<Text>Autre archétype :</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_LINE" Language="fr_FR">
+			<Text>Synergie : {1_Amount: number +#;-#} [icon:{2_Yield}]</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_ALT" Language="fr_FR">
+			<Text>Autre archétype : {1_Amount: number +#;-#} [icon:{2_Yield}]</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_PERCENT" Language="fr_FR">
+			<Text>Synergie : {1_Amount: number +#;-#} % de production d'unités militaires</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_ALT_PERCENT" Language="fr_FR">
+			<Text>Autre archétype : {1_Amount: number +#;-#} % de production d'unités militaires</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_TOWNS" Language="fr_FR">
+			<Text>Synergie : {1_Amount: number +#;-#} [icon:{2_Yield}] dans chaque ville connectée ({3_Count})</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_ALT_TOWNS" Language="fr_FR">
+			<Text>Autre archétype : {1_Amount: number +#;-#} [icon:{2_Yield}] dans chaque ville connectée ({3_Count})</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_ALT_AGELESS" Language="fr_FR">
+			<Text>Autre archétype : la fondation deviendrait Ageless. Ce bonus n'est pas encore versé.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_TOWN_PERCENT" Language="fr_FR">
+			<Text>Synergie : {1_Amount: number +#;-#} % de production d'unités militaires dans chaque ville connectée ({2_Count})</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_PLACEMENT_ALT_TOWN_PERCENT" Language="fr_FR">
+			<Text>Autre archétype : {1_Amount: number +#;-#} % de production d'unités militaires dans chaque ville connectée ({2_Count})</Text>
+		</Replace>
 	</LocalizedText>
 </Database>

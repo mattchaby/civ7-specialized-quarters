@@ -452,15 +452,17 @@ function countMasteries(player, progression) {
   if (Game.ProgressionTrees.getTreeStructure) {
     for (const node of asList(Game.ProgressionTrees.getTreeStructure(treeType))) structure.push(node);
   }
+  const playerId = numericPlayerId(player, 0);
+  if (playerId == null) return 0;
   try {
-    const tree = Game.ProgressionTrees.getTree(playerIdOf(player), treeType);
+    const tree = Game.ProgressionTrees.getTree(playerId, treeType);
     for (const node of asList(tree && tree.nodes)) structure.push(node);
   } catch (error) {
     warnOnce("tree", "getTree failed");
   }
   if (structure.length === 0) return 0;
   const full = typeof ProgressionTreeNodeState !== "undefined" ? ProgressionTreeNodeState.NODE_STATE_FULLY_UNLOCKED : null;
-  const id = playerIdOf(player);
+  const id = playerId;
   let count = 0;
   for (const node of structure) {
     const nodeType = node && (node.nodeType || node.ProgressionTreeNodeType) ? node.nodeType || node.ProgressionTreeNodeType : node;
@@ -866,6 +868,67 @@ function warehouseKind(building) {
   return null;
 }
 
+function catalystOption(player, city, x, y, foundation, archetype) {
+  const option = {
+    archetype: archetype,
+    stacks: 0,
+    yieldType: foundation === "MILITARY" ? null : YIELD_OF[foundation] || null,
+    amount: 0,
+    military: foundation === "MILITARY",
+    ageless: archetype === "PRODUCTION" || archetype === "MILITARY",
+    diplomacy: archetype === "DIPLOMACY",
+    towns: 0
+  };
+  if (option.ageless) return option;
+  if (option.diplomacy) {
+    const stacks = 1 + specialistsAt(city, x, y);
+    option.stacks = stacks;
+    option.towns = connectedTowns(city).length;
+    option.amount = option.military ? stacks * 5 : stacks;
+    return option;
+  }
+  option.stacks = catalystStacks(player, city, archetype);
+  option.amount = option.military ? option.stacks * 5 : option.stacks;
+  return option;
+}
+
+function previewPlacement(x, y, catalystBuilding, ignoredType) {
+  loadArchetypeTable();
+  const catalyst = ARCHETYPES[catalystBuilding];
+  if (!catalyst || x == null || y == null) return null;
+  const city = cityAt(x, y);
+  const player = playerFromCity(city);
+  if (!isPlayableMajor(player)) return null;
+  const present = buildingsAt(x, y).filter((type) => type !== ignoredType && type !== catalystBuilding);
+  if (present.length < 1) return null;
+  const stored = loadState(player).plots[x + "," + y] || {};
+  let foundationBuilding = present[0];
+  let foundationArchetype = null;
+  if (stored.slot1 && present.indexOf(stored.slot1.building) !== -1) {
+    foundationBuilding = stored.slot1.building;
+    foundationArchetype = stored.slot1.archetype;
+  } else if (stored.slot2 && present.indexOf(stored.slot2.building) !== -1) {
+    foundationBuilding = stored.slot2.building;
+    foundationArchetype = stored.slot2.archetype;
+  }
+  if (!foundationArchetype) {
+    const row = ARCHETYPES[foundationBuilding];
+    foundationArchetype = row ? row.primary : null;
+  }
+  if (!foundationArchetype) return null;
+  const archetypes = [catalyst.primary];
+  if (catalyst.secondary) archetypes.push(catalyst.secondary);
+  const options = [];
+  for (let index = 0; index < archetypes.length; index++) {
+    options.push(catalystOption(player, city, x, y, foundationArchetype, archetypes[index]));
+  }
+  return {
+    foundation: foundationArchetype,
+    foundationBuilding: foundationBuilding,
+    options: options
+  };
+}
+
 function quarterInfo(x, y) {
   loadArchetypeTable();
   const city = cityAt(x, y);
@@ -891,6 +954,7 @@ function quarterInfo(x, y) {
 
 globalThis.SQ = {
   quarterInfo: quarterInfo,
+  previewPlacement: previewPlacement,
   warehouseKind: warehouseKind,
   archetypes: ARCHETYPES
 };
