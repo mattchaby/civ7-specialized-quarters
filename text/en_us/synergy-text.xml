@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_SQ_CHOICE_TITLE">
+			<Text>Quarter specialization</Text>
+		</Row>
+		<Row Tag="LOC_SQ_CHOICE_FOUNDATION">
+			<Text>This building becomes the foundation. Its archetype is the yield the second building will amplify.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_CHOICE_CATALYST">
+			<Text>This building becomes the catalyst. Its archetype decides how the foundation is amplified.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_ARCH_SCIENCE">
+			<Text>Scientific</Text>
+		</Row>
+		<Row Tag="LOC_SQ_ARCH_CULTURE">
+			<Text>Cultural</Text>
+		</Row>
+		<Row Tag="LOC_SQ_ARCH_GOLD">
+			<Text>Economic</Text>
+		</Row>
+		<Row Tag="LOC_SQ_ARCH_PRODUCTION">
+			<Text>Production</Text>
+		</Row>
+		<Row Tag="LOC_SQ_ARCH_FOOD">
+			<Text>Food</Text>
+		</Row>
+		<Row Tag="LOC_SQ_ARCH_HAPPINESS">
+			<Text>Happiness</Text>
+		</Row>
+		<Row Tag="LOC_SQ_ARCH_MILITARY">
+			<Text>Military</Text>
+		</Row>
+		<Row Tag="LOC_SQ_ARCH_DIPLOMACY">
+			<Text>Diplomatic</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_FOUNDATION">
+			<Text>The catalyst adds this yield.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_FOUNDATION_MILITARY">
+			<Text>Each catalyst step is +5% Production toward military units in this city.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_SCIENCE">
+			<Text>+1 of the foundation yield per Technology Mastery this Age.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_CULTURE">
+			<Text>+1 of the foundation yield per Civic Mastery this Age.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_GOLD">
+			<Text>+1 of the foundation yield per Resource assigned to this city.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_FOOD">
+			<Text>+1 of the foundation yield per Farm or Fishing Boat worked by this city.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_HAPPINESS">
+			<Text>+1 of the foundation yield per Celebration this Age.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_DIPLOMACY">
+			<Text>+1 of the foundation yield to each connected Town, plus +1 per Specialist on this quarter. Towns do not stack this bonus.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_EFFECT_AGELESS">
+			<Text>As the second building, it makes the foundation Ageless. The game cannot mark one building Ageless, so this bonus is not paid out yet.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_DETAILS_SECOND">
+			<Text>As the second building of the quarter, it does not keep its adjacency bonuses. It instead grants:</Text>
+		</Row>
+		<Row Tag="LOC_SQ_NO_ADJACENCY">
+			<Text>The second building does not receive adjacency bonuses.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_TOOLTIP_SPEC">
+			<Text>Quarter specialization:</Text>
+		</Row>
+		<Row Tag="LOC_SQ_WAREHOUSE_FOOD">
+			<Text>Food warehouse: +1 of the foundation yield for each Farm or Fishing Boat worked by this city.</Text>
+		</Row>
+		<Row Tag="LOC_SQ_WAREHOUSE_PRODUCTION">
+			<Text>Production warehouse: the foundation becomes Ageless and keeps its yields into the next Age. The game cannot flag a single building as Ageless, so this is not applied yet.</Text>
+		</Row>
+	</EnglishText>
+</Database>

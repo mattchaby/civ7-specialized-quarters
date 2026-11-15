@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LocalizedText>
+		<Replace Tag="LOC_SQ_CHOICE_TITLE" Language="fr_FR">
+			<Text>Spécialisation du quartier</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_CHOICE_FOUNDATION" Language="fr_FR">
+			<Text>Ce bâtiment devient la fondation. Son archétype est le rendement que le second bâtiment renforcera.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_CHOICE_CATALYST" Language="fr_FR">
+			<Text>Ce bâtiment devient le catalyseur. Son archétype décide comment la fondation est renforcée.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_ARCH_SCIENCE" Language="fr_FR">
+			<Text>Scientifique</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_ARCH_CULTURE" Language="fr_FR">
+			<Text>Culturel</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_ARCH_GOLD" Language="fr_FR">
+			<Text>Économique</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_ARCH_PRODUCTION" Language="fr_FR">
+			<Text>Production</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_ARCH_FOOD" Language="fr_FR">
+			<Text>Nourriture</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_ARCH_HAPPINESS" Language="fr_FR">
+			<Text>Bonheur</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_ARCH_MILITARY" Language="fr_FR">
+			<Text>Militaire</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_ARCH_DIPLOMACY" Language="fr_FR">
+			<Text>Diplomatique</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_FOUNDATION" Language="fr_FR">
+			<Text>Le catalyseur ajoute ce rendement.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_FOUNDATION_MILITARY" Language="fr_FR">
+			<Text>Chaque palier du catalyseur vaut +5 % de production vers les unités militaires de cette ville.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_SCIENCE" Language="fr_FR">
+			<Text>+1 du rendement de la fondation par maîtrise technologique de cet âge.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_CULTURE" Language="fr_FR">
+			<Text>+1 du rendement de la fondation par maîtrise civique de cet âge.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_GOLD" Language="fr_FR">
+			<Text>+1 du rendement de la fondation par ressource assignée à cette ville.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_FOOD" Language="fr_FR">
+			<Text>+1 du rendement de la fondation par ferme ou bateau de pêche exploité par cette ville.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_HAPPINESS" Language="fr_FR">
+			<Text>+1 du rendement de la fondation par célébration de cet âge.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_DIPLOMACY" Language="fr_FR">
+			<Text>+1 du rendement de la fondation dans chaque ville connectée, plus +1 par spécialiste de ce quartier. Les villes ne cumulent pas ce bonus.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_EFFECT_AGELESS" Language="fr_FR">
+			<Text>En second bâtiment, il rend la fondation Ageless. Le jeu ne peut pas marquer un seul bâtiment Ageless, donc ce bonus n'est pas encore versé.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_DETAILS_SECOND" Language="fr_FR">
+			<Text>En second bâtiment du quartier, il ne garde pas ses bonus de proximité. Il apporte à la place :</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_NO_ADJACENCY" Language="fr_FR">
+			<Text>Le second bâtiment ne reçoit pas les bonus de proximité.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_TOOLTIP_SPEC" Language="fr_FR">
+			<Text>Spécialisation du quartier :</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_WAREHOUSE_FOOD" Language="fr_FR">
+			<Text>Entrepôt de nourriture : +1 du rendement de la fondation par ferme ou bateau de pêche exploité par la ville.</Text>
+		</Replace>
+		<Replace Tag="LOC_SQ_WAREHOUSE_PRODUCTION" Language="fr_FR">
+			<Text>Entrepôt de production : la fondation devient Ageless et conserve ses rendements à l'âge suivant. Le jeu ne peut pas marquer un seul bâtiment Ageless, donc ce bonus n'est pas encore versé.</Text>
+		</Replace>
+	</LocalizedText>
+</Database>
